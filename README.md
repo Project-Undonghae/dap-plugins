@@ -15,8 +15,12 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
      plugin.yaml                 # 매니페스트 (id/name/version/entry/permissions)
      <module>/plugin.mjs         # 자기완결 ESM (외부 import 없이 번들)
      palette/index.html          # (팔레트를 쓴다면) 자기완결 단일 HTML
+     icon.png                    # (선택) 래디얼 메뉴 아이콘 — 아래 방침 참고
    ```
    작성 가이드: DAP 레포의 [`docs/PLUGIN_API.md`](https://github.com/Project-Undonghae/mydeskpet/blob/main/docs/PLUGIN_API.md).
+   > **아이콘 방침:** DAP는 자기 앱 아이콘을 플러그인 항목에 **주지 않는다.** 래디얼 아이콘이 필요하면
+   > 레포에 아이콘 파일을 포함하고 `ctx.radialMenu.addItem({ …, icon: "icon.png" })`로 지정하라(없으면
+   > 라벨 첫 글자 아바타). 트레이 항목은 텍스트 전용. 자세히는 PLUGIN_API §5.4.
 2. **버전 태그** — `git tag v1.0.0 && git push --tags`. (카탈로그 `ref`가 이걸 가리켜 고정 버전 설치.)
 3. **이 레포에 항목 추가 PR** — `plugin_catalog.json`의 `plugins`에 한 항목 추가:
    ```json
