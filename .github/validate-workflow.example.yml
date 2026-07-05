@@ -1,0 +1,17 @@
+# CI 활성화: 이 파일을 .github/workflows/validate.yml 로 옮기면 PR마다 카탈로그를 검증합니다.
+# (레포에 workflow 파일을 추가하려면 `workflow` 스코프를 가진 계정으로 커밋/푸시해야 합니다.)
+name: validate-catalog
+on:
+  pull_request:
+    paths: ["plugin_catalog.json", "scripts/validate.mjs"]
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/validate.mjs
