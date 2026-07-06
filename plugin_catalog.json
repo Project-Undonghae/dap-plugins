@@ -6,7 +6,7 @@
       "description": "복사한 텍스트·이미지·파일을 팔레트로 모아 붙여넣기·드래그로 다시 사용",
       "category": "utility",
       "repo": "o-min222/dap-super-clipboard",
-      "ref": "v0.1.0"
+      "ref": "v0.1.2"
     },
     {
       "id": "dap.lecture_tools",
