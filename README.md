@@ -52,3 +52,4 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
 | 이름 | 설명 | 레포 |
 |---|---|---|
 | Super Clipboard | 복사한 텍스트·이미지·파일을 팔레트로 | [o-min222/dap-super-clipboard](https://github.com/o-min222/dap-super-clipboard) |
+| Lecture Tools | 강사용 커서 강조, 판서, spotlight 오버레이 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |
