@@ -28,19 +28,21 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
      "id": "io.github.you.my_plugin",
      "name": "My Plugin",
      "description": "한 줄 설명",
+     "category": "utility",
      "repo": "you/my-plugin",
      "ref": "v1.0.0"
    }
    ```
    - `id`(필수) — **`plugin.yaml`의 id와 반드시 일치**. 역-도메인 네임스페이스 권장(`io.github.<user>.<name>`).
    - `repo`(필수) — `owner/name` 또는 github URL.
+   - `category`(선택) — 웹 카탈로그 분류. `productivity`, `utility`, `developer` 중 하나.
    - `name`·`description`·`ref`(선택). `ref` 생략 시 기본 브랜치(움직이는 타깃)라 태그 권장.
 4. **리뷰 → 머지** — 메인테이너가 리뷰(플러그인은 in-process 전체 권한 → 안전성 확인이 게이트)한 뒤 머지하면 **즉시 라이브**. 앱 재배포 불필요.
 
 ## 검증
 
 `plugin_catalog.json` 변경 PR은 [`scripts/validate.mjs`](scripts/validate.mjs)로 자동 검사됩니다
-(유효 JSON · `id`/`repo` 필수 · `id` 중복 없음 · `repo` 형식). 로컬 확인: `node scripts/validate.mjs`.
+(유효 JSON · `id`/`repo` 필수 · `id` 중복 없음 · `repo` 형식 · `category` 허용값). 로컬 확인: `node scripts/validate.mjs`.
 
 ## 업데이트 / 제거
 
@@ -49,7 +51,7 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
 
 ## 등록된 플러그인
 
-| 이름 | 설명 | 레포 |
-|---|---|---|
-| Super Clipboard | 복사한 텍스트·이미지·파일을 팔레트로 | [o-min222/dap-super-clipboard](https://github.com/o-min222/dap-super-clipboard) |
-| Lecture Tools | 강사용 커서 강조, 판서, spotlight 오버레이 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |
+| 이름 | 분류 | 설명 | 레포 |
+|---|---|---|---|
+| Super Clipboard | utility | 복사한 텍스트·이미지·파일을 팔레트로 | [o-min222/dap-super-clipboard](https://github.com/o-min222/dap-super-clipboard) |
+| Lecture Tools | productivity | 강사용 커서 강조, 판서, spotlight 오버레이 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |

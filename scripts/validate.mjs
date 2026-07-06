@@ -18,6 +18,7 @@ if (!Array.isArray(plugins)) {
 }
 
 const REPO_RE = /^[\w.-]+\/[\w.-]+$/;
+const CATEGORIES = new Set(["productivity", "utility", "developer"]);
 const ids = new Set();
 let ok = true;
 const fail = (m) => {
@@ -32,6 +33,9 @@ for (const p of plugins) {
   else if (!REPO_RE.test(p.repo) && !p.repo.includes("github.com")) fail(`${where}: repo must be "owner/name" or a github URL (got "${p.repo}")`);
   if (p.name != null && typeof p.name !== "string") fail(`${where}: name must be a string`);
   if (p.ref != null && typeof p.ref !== "string") fail(`${where}: ref must be a string`);
+  if (p.category != null && !CATEGORIES.has(p.category)) {
+    fail(`${where}: category must be one of ${[...CATEGORIES].join(", ")} (got "${p.category}")`);
+  }
   if (typeof p.id === "string") {
     if (ids.has(p.id)) fail(`duplicate id: ${p.id}`);
     ids.add(p.id);
