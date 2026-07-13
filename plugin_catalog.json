@@ -9,6 +9,14 @@
       "ref": "v0.1.2"
     },
     {
+      "id": "io.github.o-min222.meme_vault",
+      "name": "Meme Vault",
+      "description": "파일이나 클립보드의 짤을 제목과 태그로 보관하고 상황에 맞게 검색·붙여넣기",
+      "category": "utility",
+      "repo": "o-min222/dap-meme-vault",
+      "ref": "v0.4.1"
+    },
+    {
       "id": "dap.lecture_tools",
       "name": "Lecture Tools",
       "description": "강사용 판서와 spotlight 화면 캔버스 컨트롤",
