@@ -11,10 +11,10 @@
     {
       "id": "io.github.o-min222.meme_vault",
       "name": "Meme Vault",
-      "description": "자주 쓰는 짤을 제목과 태그로 보관하고 상황에 맞게 검색·붙여넣기",
+      "description": "파일이나 클립보드의 짤을 제목과 태그로 보관하고 상황에 맞게 검색·붙여넣기",
       "category": "utility",
       "repo": "o-min222/dap-meme-vault",
-      "ref": "v0.1.0"
+      "ref": "v0.2.0"
     },
     {
       "id": "dap.lecture_tools",
