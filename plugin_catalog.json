@@ -23,6 +23,14 @@
       "category": "productivity",
       "repo": "o-min222/dap-lecture-tools",
       "ref": "v0.3.37"
+    },
+    {
+      "id": "io.github.o-min222.ai_usage",
+      "name": "AI Usage",
+      "description": "Codex·Claude 로그인 계정의 5시간·주간 한도와 DAP 사용 계정 상태를 확인",
+      "category": "utility",
+      "repo": "o-min222/dap-ai-usage",
+      "ref": "v0.1.0"
     }
   ]
 }
