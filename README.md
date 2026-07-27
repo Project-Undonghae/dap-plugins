@@ -53,5 +53,7 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
 
 | 이름 | 분류 | 설명 | 레포 |
 |---|---|---|---|
-| Super Clipboard | utility | 복사한 텍스트·이미지·파일을 팔레트로 | [o-min222/dap-super-clipboard](https://github.com/o-min222/dap-super-clipboard) |
-| Lecture Tools | productivity | 강사용 커서 강조, 판서, spotlight 오버레이 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |
+| Super Clipboard | utility | 복사한 텍스트·이미지·파일을 팔레트로 모아 붙여넣기·드래그로 다시 사용 | [o-min222/dap-super-clipboard](https://github.com/o-min222/dap-super-clipboard) |
+| Meme Vault | utility | 짤을 제목과 태그로 보관·검색·붙여넣기하고, AI로 새 짤을 생성해 저장 | [o-min222/dap-meme-vault](https://github.com/o-min222/dap-meme-vault) |
+| Lecture Tools | productivity | 강사용 판서와 spotlight 화면 캔버스 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |
+| AI Usage | utility | Codex·Claude 로그인 계정의 5시간·주간 한도와 DAP 사용 계정 상태를 확인 | [o-min222/dap-ai-usage](https://github.com/o-min222/dap-ai-usage) |
