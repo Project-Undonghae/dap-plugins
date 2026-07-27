@@ -31,6 +31,14 @@
       "category": "utility",
       "repo": "o-min222/dap-ai-usage",
       "ref": "v0.1.7"
+    },
+    {
+      "id": "dap.meeting_assistant",
+      "name": "Meeting Assistant",
+      "description": "회의 실시간 전사·번역, AI 답변 추천, 요약과 종료 리포트",
+      "category": "productivity",
+      "repo": "o-min222/dap-meeting-assistant",
+      "ref": "v1.0.1"
     }
   ]
 }
