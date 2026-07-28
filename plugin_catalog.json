@@ -22,7 +22,7 @@
       "description": "관심 도시의 현재 날씨와 3일 예보를 트레이 허브와 상세 패널에서 확인",
       "category": "utility",
       "repo": "o-min222/dap-weather",
-      "ref": "v1.0.2"
+      "ref": "v1.0.3"
     },
     {
       "id": "dap.lecture_tools",
