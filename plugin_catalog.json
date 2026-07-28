@@ -6,7 +6,7 @@
       "description": "복사한 텍스트·이미지·파일을 팔레트로 모아 붙여넣기·드래그로 다시 사용",
       "category": "utility",
       "repo": "o-min222/dap-super-clipboard",
-      "ref": "v0.1.2"
+      "ref": "v0.1.3"
     },
     {
       "id": "io.github.o-min222.meme_vault",
@@ -14,7 +14,15 @@
       "description": "짤을 제목과 태그로 보관·검색·붙여넣기하고, AI로 새 짤을 생성해 저장",
       "category": "utility",
       "repo": "o-min222/dap-meme-vault",
-      "ref": "v0.5.0"
+      "ref": "v0.5.1"
+    },
+    {
+      "id": "dap.weather",
+      "name": "Weather",
+      "description": "관심 도시의 현재 날씨와 3일 예보를 트레이 허브와 상세 패널에서 확인",
+      "category": "utility",
+      "repo": "o-min222/dap-weather",
+      "ref": "v1.0.2"
     },
     {
       "id": "dap.lecture_tools",
