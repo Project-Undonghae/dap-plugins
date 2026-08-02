@@ -54,7 +54,7 @@
       "description": "할 일을 칸반으로 관리하고, 붙여넣은 글·이미지·메일에서 초안을 뽑아 확인 후 등록",
       "category": "productivity",
       "repo": "o-min222/dap-todo",
-      "ref": "v0.1.1"
+      "ref": "v0.1.2"
     },
     {
       "id": "io.github.o-min222.calendar",
