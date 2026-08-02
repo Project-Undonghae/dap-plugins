@@ -62,7 +62,7 @@
       "description": "월·주 캘린더. 연결 없이도 일정을 쓰고, Google 캘린더나 연결된 AI에서 가져온다",
       "category": "productivity",
       "repo": "o-min222/dap-calendar",
-      "ref": "v0.1.0"
+      "ref": "v0.1.1"
     }
   ]
 }
