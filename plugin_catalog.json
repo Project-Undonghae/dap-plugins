@@ -70,7 +70,7 @@
       "description": "11개 캐릭터의 외형·이름·성격·말투 선택. 원본 이미지 직접 다운로드. DAP 1.6.1 이상 필요.",
       "category": "utility",
       "repo": "o-min222/dap-chiikawa-friends",
-      "ref": "v1.3.0"
+      "ref": "v1.3.1"
     }
   ]
 }
