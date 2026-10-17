@@ -70,7 +70,7 @@
       "description": "11개 캐릭터의 스킨·말투 선택. 이미지는 원본에서 직접 다운로드. DAP 1.6.0 이상 필요.",
       "category": "utility",
       "repo": "o-min222/dap-chiikawa-friends",
-      "ref": "v1.1.0"
+      "ref": "v1.1.1"
     }
   ]
 }
