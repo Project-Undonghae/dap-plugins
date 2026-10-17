@@ -67,10 +67,10 @@
     {
       "id": "io.github.o-min222.chiikawa_friends",
       "name": "Chiikawa Friends",
-      "description": "11개 캐릭터의 외형·이름·성격·말투 선택. 원본 이미지 직접 다운로드. DAP 1.6.1 이상 필요.",
+      "description": "11개 캐릭터와 생성 모션 14개. DAP 1.6.7부터 수면·먹기·그루밍·잡힘·성공·춤 독립 재생. 원본 이미지는 직접 다운로드.",
       "category": "utility",
       "repo": "o-min222/dap-chiikawa-friends",
-      "ref": "v1.3.1"
+      "ref": "v1.4.0"
     }
   ]
 }
