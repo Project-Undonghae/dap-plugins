@@ -59,4 +59,4 @@ DAP(Desk AI Pet)의 **커뮤니티 플러그인 카탈로그**입니다. DAP 앱
 | Lecture Tools | productivity | 강사용 판서와 spotlight 화면 캔버스 컨트롤 | [o-min222/dap-lecture-tools](https://github.com/o-min222/dap-lecture-tools) |
 | AI Usage | utility | Codex·Claude 로그인 계정의 5시간·주간 한도와 DAP 사용 계정 상태를 확인 | [o-min222/dap-ai-usage](https://github.com/o-min222/dap-ai-usage) |
 | Meeting Assistant | productivity | 회의 실시간 전사·번역, AI 답변 추천과 리포트 | [o-min222/dap-meeting-assistant](https://github.com/o-min222/dap-meeting-assistant) |
-| Chiikawa Friends | utility | 11개 캐릭터 외형·이름·성격·말투. 원본 이미지 직접 다운로드, DAP 1.6.1+ | [o-min222/dap-chiikawa-friends](https://github.com/o-min222/dap-chiikawa-friends) |
+| Chiikawa Friends | utility | 치이카와·하치와레·우사기·모몽가 외형·말투와 승인된 자체 모션. 미교체 동작은 원본 유지, DAP 1.6.8 권장 | [o-min222/dap-chiikawa-friends](https://github.com/o-min222/dap-chiikawa-friends) |
