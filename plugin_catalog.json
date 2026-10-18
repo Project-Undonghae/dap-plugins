@@ -67,10 +67,10 @@
     {
       "id": "io.github.o-min222.chiikawa_friends",
       "name": "Chiikawa Friends",
-      "description": "치이카와·하치와레·우사기·모몽가의 외형·말투. 우사기 주요 모션과 모몽가 꼬리 춤·책/전단지 읽기 제공, 미교체 동작은 기존 원본 유지. DAP 1.6.8 권장.",
+      "description": "치이카와·하치와레·우사기·모몽가의 외형·말투·사용자 호칭. 모몽가·우사기 채팅 응답 대기와 승인 모션 제공, 미교체 동작 원본 유지. DAP 1.6.8 권장.",
       "category": "utility",
       "repo": "o-min222/dap-chiikawa-friends",
-      "ref": "v2.0.0"
+      "ref": "v2.1.0"
     }
   ]
 }
