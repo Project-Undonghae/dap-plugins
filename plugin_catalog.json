@@ -67,10 +67,10 @@
     {
       "id": "io.github.o-min222.chiikawa_friends",
       "name": "Chiikawa Friends",
-      "description": "치이카와·하치와레·우사기·모몽가의 외형·말투·사용자 호칭. 모몽가 8프레임·2초 클릭 기쁨과 승인 모션 제공. 모몽가 필수 동작 자체 제작 완료, DAP 1.6.11 권장.",
+      "description": "네 캐릭터 외형·말투·호칭과 승인 모션. 모몽가·우사기 모든 동작 자체 이미지·원본 다운로드 없이 적용, DAP 1.6.11 권장",
       "category": "utility",
       "repo": "o-min222/dap-chiikawa-friends",
-      "ref": "v2.2.0"
+      "ref": "v2.3.0"
     }
   ]
 }
