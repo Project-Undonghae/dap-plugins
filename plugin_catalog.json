@@ -78,7 +78,7 @@
       "description": "친구 코드로 연결해 100자 이내의 짧은 쪽지를 주고받고, 열람한 쪽지는 5초 뒤 닫기",
       "category": "utility",
       "repo": "o-min222/dap-friend-messages",
-      "ref": "v0.1.0"
+      "ref": "v0.1.1"
     }
   ]
 }
