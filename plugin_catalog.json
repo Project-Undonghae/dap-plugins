@@ -78,7 +78,7 @@
       "description": "공개·개인 별명으로 친구와 모임에 익명 선택 가능한 100자 종이 쪽지 보내기",
       "category": "utility",
       "repo": "o-min222/dap-friend-messages",
-      "ref": "v0.5.1"
+      "ref": "v0.5.2"
     }
   ]
 }
