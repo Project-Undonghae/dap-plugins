@@ -75,10 +75,10 @@
     {
       "id": "dap.friend_messages",
       "name": "Friend Messages",
-      "description": "친구나 최대 8명 모임에 100자 종이 쪽지와 내장 스티커를 보내고, 펼친 쪽지는 약 5초 뒤 닫기",
+      "description": "친구나 최대 8명 모임에 익명 선택이 가능한 100자 종이 쪽지와 내장 스티커 보내기",
       "category": "utility",
       "repo": "o-min222/dap-friend-messages",
-      "ref": "v0.2.0"
+      "ref": "v0.3.0"
     }
   ]
 }
